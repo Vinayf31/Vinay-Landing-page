@@ -1,0 +1,105 @@
+@font-face {
+    src: url(fonts/OneDirection.ttf) format("truetype");
+    font-family: nos;
+}
+
+body {
+    background-color: #f4f4f4; /* Light background for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333; /* Dark text for readability */
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #333; /* Dark text */
+}
+
+.paragraph2 {
+    text-align: center;
+    font-size: 100px;
+    font-family: nos;
+    color: #0ac623; /* Bright green for emphasis */
+}
+
+.menu-bar {
+    text-align: center;
+    background-color: #2c3e50; /* Dark navy background */
+    padding: 15px 0;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-bar ul li {
+    font-family: 'Impact', sans-serif;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    color: #ecf0f1; /* Light color for menu items */
+    transition: background 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.menu-bar ul li:hover {
+    background: #ecf0f1; /* Light background on hover */
+    color: #2c3e50; /* Dark text on hover */
+    border-radius: 3px;
+}
+
+.paragraph5 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+    color: #333; /* Dark text */
+}
+
+.lets-go-btn {
+    color: white;
+    background: #e74c3c; /* Bright red button */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    padding: 15px 30px; /* More padding for a better button size */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+.lets-go-btn:hover {
+    background: #c0392b; /* Darker red on hover */
+}
+
+.icons {
+    display: flex;
+    font-size: 3rem;
+    margin-top: 20px;
+    line-height: 0;
+    justify-content: center;
+    gap: 30px; /* Increased gap for better spacing */
+}
+
+.icons a {
+    color: #2c3e50; /* Dark color for icons */
+    transition: transform 0.3s; /* Smooth scaling */
+}
+
+.icons a:hover {
+    transform: scale(1.5);
+}
+
+.footer {
+    background-color: #2c3e50; /* Dark navy background */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.p1 {
+    color: #ecf0f1; /* Light color for footer text */
+    font-size: larger;
+    padding-bottom: 10px;
+}
